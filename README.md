@@ -1,6 +1,6 @@
 # ANNarchy - ROS
 
-ANNarchy (Artificial Neural Networks architect, www.github.com/ANNarchy/ANNarchy) is a parallel and hybrid simulator for distributed rate-coded or spiking neural networks. This package implements an interface to the ROS middleware. The ANNarchy-ROS package is released under the [GNU GPL v2 or later](http://www.gnu.org/licenses/gpl.html).
+ANNarchy (Artificial Neural Networks architect, www.github.com/ANNarchy/ANNarchy) is a parallel and hybrid simulator for distributed rate-coded or spiking neural networks. This package implements an interface to the ROS middleware. The ANNarchy-ROS package is released under the [GNU GPL v3 or later](http://www.gnu.org/licenses/gpl.html).
 
 ### Authos
 
