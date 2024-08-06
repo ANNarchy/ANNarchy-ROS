@@ -1,0 +1,2 @@
+ANNarchy>=4.8
+rospy==1.16

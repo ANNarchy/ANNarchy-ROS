@@ -1,0 +1,7 @@
+[project]
+name = "ANNarchyROS"
+version = "0.1"
+description = "Interface between ANNarchy and ROS"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text="GPLv3"}
