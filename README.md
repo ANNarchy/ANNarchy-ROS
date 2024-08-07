@@ -14,11 +14,15 @@ If not already installed please install the *rospy* package (https://wiki.ros.or
 
 For conda-users, one can use RoboStack for ROS Noetic - https://robostack.github.io/GettingStarted.html
 
-If not already installed please install the *ANNarchy* package.
+If not already installed please install the *ANNarchy* package (see https://annarchy.github.io/Installation.html for more details).
 
 ### ANNarchy-ROS package
 
-TODO:
+As the ANNarchy-ROS package is not available in PyPi yet (it's planned for the near future), you need to install it from sources via:
+
+pip3 install .
+
+in the source directory.
 
 ### The turtlesim - demo (closed_loop)
 
@@ -37,7 +41,7 @@ As a first working prototype, we use the turtlesim environment already shipped w
 1. *roscore* : starts the ROS run-time environment.
 2. *rosrun turtlesim turtlesim_node* which starts the turtlesim environment.
 3. *python3 simple_demo.py* located in *examples* which runs the ANNarchy script.
-3. *python3 simple_demo.py* located in *examples* which runs the ANNarchy script.
+3. *python3 sim_control.py* located in *examples* which runs a simple client that repeatedly sends a *simulate* request to the ANNarchy controller.
 
 
 
