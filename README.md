@@ -43,6 +43,8 @@ As a first working prototype, we use the turtlesim environment already shipped w
 3. *python3 simple_demo.py* located in *examples* which runs the ANNarchy script.
 3. *python3 sim_control.py* located in *examples* which runs a simple client that repeatedly sends a *simulate* request to the ANNarchy controller.
 
+This sample demonstrates the direct interaction between ANNarchy and the turtlesim environment. The position of the turtle is send to ANNarchy, being processed, a new action is computed, and then send to the turtlesim environment. Contrary to the above sample, in this setup the new action is only computed being triggered by a command from an external source (i.e., sim_control).
+
 
 
 
